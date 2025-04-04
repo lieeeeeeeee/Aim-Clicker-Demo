@@ -1,0 +1,91 @@
+アジェンダ/*
+仕様書/*
+設計書/*
+タスク/*
+devlog/*
+
+AimClicker_Unity/*
+!AimClicker_Unity/Assets
+AimClicker_Unity/Assets/*
+!AimClicker_Unity/Assets/UI
+!AimClicker_Unity/Assets/Scripts
+!AimClicker_Unity/Assets/Application
+!AimClicker_Unity/Assets/Domain
+!AimClicker_Unity/Assets/Infrastructure
+!AimClicker_Unity/Assets/Presentation
+!AimClicker_Unity/Assets/Prefabs
+!AimClicker_Unity/Assets/ScriptableObjects
+.env*
+.vscode/
+.cursorrules
+.cursorignore
+# .gitignore # このファイル自体はgitignoreしない方が一般的です
+currentDir.md
+
+# Unity specific ignores
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store Tools Plugin (Optional)
+# /[Aa]ssets/AssetStoreTools*
+
+# JetBrains Rider Plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio cache directory
+.vs/
+
+# Gradle cache directory
+.gradle/
+
+# VS/MD/Consulo generated files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity crash report file
+sysinfo.txt
+
+# Build artifacts
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta # unitypackage自体は含めることが多いですが、metaは不要です
+*.app
+*.exe # Windows実行ファイル
+*.log # ログファイル
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
