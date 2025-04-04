@@ -15,11 +15,11 @@ AimClicker_Unity/Assets/*
 !AimClicker_Unity/Assets/Presentation
 !AimClicker_Unity/Assets/Prefabs
 !AimClicker_Unity/Assets/ScriptableObjects
+
 .env*
 .vscode/
-.cursorrules
+.cursor/rules/*
 .cursorignore
-# .gitignore # このファイル自体はgitignoreしない方が一般的です
 currentDir.md
 
 # Unity specific ignores
@@ -75,10 +75,10 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta # unitypackage自体は含めることが多いですが、metaは不要です
+*.unitypackage.meta
 *.app
-*.exe # Windows実行ファイル
-*.log # ログファイル
+*.exe
+*.log
 
 # Crashlytics generated file
 crashlytics-build.properties
